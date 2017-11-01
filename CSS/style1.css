@@ -1,3 +1,4 @@
+/*
 header {
 	text-align: center;
 	font-family: cursive;
@@ -18,7 +19,6 @@ nav li {
     line-height: 50px;
     font-size: 24px;
     display: inline-block;
-   /* margin-right: -4px;*/
   }
 
 nav li:last-child{
@@ -36,7 +36,6 @@ nav a {
   font-variant: all-small-caps;
   color: #000000;
   display: block;
- /* padding-left: 15px;*/
   transition: .5s background-color;
 }
 
@@ -49,8 +48,9 @@ nav a.active {
   color: #444;
   cursor: default;
 }
-
+*/
 /* Sub Menus */
+/*
 nav li li {
   font-size: 80%;
   width: fit-content;
@@ -63,8 +63,9 @@ nav > ul > li {
 nav > ul > li > a {
     padding-left: 0;
 }
-
+*/
 /* Sub Menus */
+/*
 nav li ul {
     position: absolute;
     display: none;
@@ -77,3 +78,10 @@ nav li:hover ul {
 nav li ul li {
    display: block;
  }
+*/
+
+.navbar {
+  background-image: linear-gradient(to bottom, #f7f7f7 0%,#eee 100%);
+  border: 1px solid #e5e5e5;
+}
+
