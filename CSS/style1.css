@@ -181,3 +181,25 @@ h6,
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 20rem;
+  background-color: #777;
+  margin: auto;
+}
+.carousel-item > img {
+  /*position: absolute;*/
+  top: 0;
+  margin: auto;
+  min-width: 40%;
+  height: 20rem;
+}
