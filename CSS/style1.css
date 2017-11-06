@@ -206,3 +206,7 @@ h6,
   min-width: 40%;
   height: 20rem;
 }
+
+.home-images > a > img {
+  vertical-align: bottom;
+}
