@@ -96,6 +96,9 @@ body {
   color: #555;
   width: 90%;
   margin: auto; 
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 h1,
@@ -117,6 +120,7 @@ h6,
 
 .container {
   max-width: 60rem;
+  flex:1;
 }
 
 .navbar {
@@ -176,7 +180,8 @@ h6,
 }
 
 .blog-footer {
-  padding: 2.5rem 0;
+
+  padding: 1rem 0;
   color: #999;
   background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
