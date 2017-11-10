@@ -215,3 +215,13 @@ h6,
 .home-images > a > img {
   vertical-align: bottom;
 }
+
+@media only screen and (max-width: 768px)
+{
+  .carousel-item >img {
+    max-width: 100%;
+  }
+  .home-images > a > img {
+    max-width: 60%;
+  }
+}
